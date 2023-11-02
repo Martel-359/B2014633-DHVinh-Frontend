@@ -94,7 +94,7 @@ export default {
         v-model:activeIndex="activeIndex"
       />
       <p v-else>Không có liên hệ nào.</p>
-      <div class="mt-3 row justify-content-aroundnd align-item-center">
+      <div class="mt-3 row justify-content-around align-item-center">
         <button class="btn btn-sm btn-primary" @click="refreshList()">
           <i class="fa fa-redo"></i> Làm mới
         </button>
